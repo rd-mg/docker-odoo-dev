@@ -1,0 +1,6 @@
+[options]
+addons_path = /var/lib/odoo/odoo/addons,/var/lib/odoo/custom_addons,/mnt/enterprise
+data_dir = /var/lib/odoo
+admin_passwd = $pbkdf2-sha512$25000$VAoBQEjp3VtrzTnn3HvPGQ$eZoYhaIOcEog2K8R23HigUoxJaggQ4RLzrMVTdajShkn4B/wtODZJX0OYVqFNiuEOLdM0PB20JWGvn5myp26GQ
+csv_internal_sep = ,
+max_cron_threads = 2

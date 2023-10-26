@@ -1,7 +1,7 @@
 version: "2"
 services:
   web:
-    image: odoodev:${ODOO_VERSION}
+    image: odoodev_mfuk:${ODOO_VERSION}
     depends_on:
       - db
     ports:
@@ -12,6 +12,7 @@ services:
       - odoo-web-data:/var/lib/odoo
       - ${ODOO_SERVER}:/var/lib/odoo/odoo
       - ${CUSTOM_ADDONS}:/var/lib/odoo/custom_addons
+      - ${ENTERPRISE_ADDONS}:/mnt/enterprise
     entrypoint: ${ENTRYPOINT}
   db:
     image: postgres:${PG_VERSION}

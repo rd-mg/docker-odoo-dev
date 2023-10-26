@@ -1,8 +1,9 @@
 {
-    "stubPath": "/path/odoo-stubs15",
+    "stubPath": "/home/rdmachadog/gitproj/odoo-stubs",
     "extraPaths": [
-        "/path/server/odoo",
-        "/path/server/odoo/addons",
-        "/path/custom_addons"
+        "/home/rdmachadog/gitproj/odoo",
+        "/home/rdmachadog/gitproj/odoo/addons",
+        "/home/rdmachadog/gitproj/enterprise",
+        "/home/rdmachadog/gitproj/MFUK"
     ]
 }
