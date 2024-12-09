@@ -14,11 +14,11 @@
             },
             "pathMappings": [
                 {
-                    "localRoot": "/home/rdmachadog/gitproj/MFUK",
+                    "localRoot": "/home/rdmachadog/gitproj/addons-17",
                     "remoteRoot": "/var/lib/odoo/custom_addons"
                 },
                 {
-                    "localRoot": "/home/rdmachadog/gitproj/odoo/addons",
+                    "localRoot": "/home/rdmachadog/gitproj/odoo-17/addons",
                     "remoteRoot": "/var/lib/odoo/odoo"
                 }
             ],
