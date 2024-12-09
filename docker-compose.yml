@@ -1,7 +1,7 @@
 version: "2"
 services:
   web:
-    image: odoodev_mfuk:${ODOO_VERSION}
+    image: odoo_mfuk:${ODOO_VERSION}
     depends_on:
       - db
     ports:

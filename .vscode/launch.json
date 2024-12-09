@@ -16,7 +16,7 @@
                 {
                     "localRoot": "/home/rdmachadog/gitproj/MFUK",
                     "remoteRoot": "/var/lib/odoo/custom_addons"
-                }
+                },
                 {
                     "localRoot": "/home/rdmachadog/gitproj/odoo/addons",
                     "remoteRoot": "/var/lib/odoo/odoo"
