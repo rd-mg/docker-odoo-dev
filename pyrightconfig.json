@@ -1,9 +1,8 @@
 {
     "stubPath": "/home/rdmachadog/gitproj/odoo-stubs",
     "extraPaths": [
-        "/home/rdmachadog/gitproj/odoo",
-        "/home/rdmachadog/gitproj/odoo/addons",
-        "/home/rdmachadog/gitproj/enterprise",
-        "/home/rdmachadog/gitproj/MFUK"
+        "/home/rdmachadog/gitproj/odoo-18",
+        "/home/rdmachadog/gitproj/enterprise-18",
+        "/home/rdmachadog/gitproj/odoo-l10n-ve-accounting"
     ]
 }

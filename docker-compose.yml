@@ -1,7 +1,6 @@
-version: "2"
 services:
   web:
-    image: odoo_dev:${ODOO_VERSION}
+    image: dockerodoodev:${ODOO_VERSION}
     depends_on:
       - db
     ports:
