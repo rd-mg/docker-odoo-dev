@@ -1,0 +1,12 @@
+#!/bin/bash
+# Odoo.sh deployment hook to install ShopifyAPI dependencies
+
+echo "Installing ShopifyAPI dependencies for Shopify Connector..."
+
+# Install ShopifyAPI and dependencies
+pip3 install ShopifyAPI>=12.7.0 pyactiveresource>=2.2.2
+
+echo "ShopifyAPI installation completed."
+
+# Verify installation
+python3 -c "import shopify; print('✅ ShopifyAPI successfully installed')" || echo "❌ ShopifyAPI installation failed" 
