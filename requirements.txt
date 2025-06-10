@@ -1,2 +1,10 @@
 debugpy
 pydevd-odoo
+
+# Shopify Connector Dependencies
+ShopifyAPI>=12.7.0,<13.0.0
+pyactiveresource>=2.2.2,<3.0.0
+requests>=2.25.0,<3.0.0
+PyJWT>=2.0.0,<3.0.0
+PyYAML>=6.0.0,<7.0.0
+six>=1.16.0
